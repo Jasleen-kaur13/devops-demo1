@@ -1,0 +1,9 @@
+
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "Validating application files"
+      - test -f index.html
+      - echo "Application file found successfully"
